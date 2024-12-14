@@ -42,7 +42,7 @@ This project uses multiple file types for handling point cloud data:
 
 * **`.csv`**:  
   - These files contain raw point cloud data in tabular form, usually including \(x\), \(y\), and \(z\) coordinates along with optional intensity or timestamp data.
-  - They can be converted to `.pcd` files using preprocessing scripts or point cloud tools.
+  - They can be converted to `.pcd` files using preprocessing scripts or point cloud tools such as Cloud Compare.
 
 * **`.pcd`**:  
   - These files are used as input for the code.
