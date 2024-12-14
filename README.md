@@ -32,6 +32,26 @@ pip install numpy open3d scipy plotly
 ```
 ---
 
+## File Types
+
+This project uses multiple file types for handling point cloud data:
+
+* **`.lvx`**:  
+  - These are proprietary files created by Livox LiDAR devices.
+  - They can be opened and viewed in **Livox Viewer**, a software provided by Livox for visualizing and managing LiDAR data.
+
+* **`.csv`**:  
+  - These files contain raw point cloud data in tabular form, usually including \(x\), \(y\), and \(z\) coordinates along with optional intensity or timestamp data.
+  - They can be converted to `.pcd` files using preprocessing scripts or point cloud tools.
+
+* **`.pcd`**:  
+  - These files are used as input for the code.
+  - `.pcd` (Point Cloud Data) files are a widely used format for storing point cloud information and are compatible with the **Open3D** library used in this project.
+
+Ensure your point cloud data is available in `.pcd` format for direct usage with the code.
+
+---
+
 ### Installing
 
 1. Clone the repository:
